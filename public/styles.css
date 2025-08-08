@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #132d41;
+    color: white;
+    padding: 1rem;
+    padding-bottom: 40px;
+    align-content: center;
+    text-align: center;
+
+  }
+
+  #bethy {
+    margin-top: 10px;
+    background: #ffffff;
+    color: #132d41;
+  }
+  
+  main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  article {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    background: #132d41;
+    color: #ffff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn.delete {
+    background: #871b1b;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 90%;
+    }
+  }
+  
